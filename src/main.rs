@@ -152,7 +152,7 @@ fn read_edge_list(path: &str) -> Option<Vec<(usize, usize)>> {
     let file = File::open(path).ok()?;
     let mut lines = std::io::BufReader::new(file).lines();
 
-    // Skip possible header line
+    // Skip possible header line 
     lines.next();
 
     let mut edges = Vec::new();
@@ -228,7 +228,7 @@ fn shortest_path(graph: &Graph, start: usize, end: usize) -> usize {
     std::usize::MAX
 }
 
-// Basic tests for BFS traversal and shortest path computation
+// Basic test for BFS traversal 
 #[cfg(test)]
 mod tests {
     use super::*;
