@@ -134,7 +134,7 @@ fn main() {
         return;
     }
 
-    // Step 6: Calculate and print the average shortest path distance
+    // Step 6: Calculate and print the average shortest distance
     let average_distance = total_distance as f64 / counted_pairs as f64;
     println!("- Computed distances for {} pairs.", counted_pairs);
     println!("- Total combined distance: {}", total_distance);
