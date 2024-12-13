@@ -67,7 +67,7 @@ fn main() {
         }
     }
 
-    // Sort adjacency lists for consistency
+    // Sort adjacency lists for better consistency
     for neighbors in &mut adjacency_lists {
         neighbors.sort();
     }
