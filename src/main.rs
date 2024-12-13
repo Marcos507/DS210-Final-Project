@@ -35,6 +35,7 @@ struct Graph {
 }
 
 fn main() {
+    // Print Title
     println!("--------------------------------------------------------");
     println!("   Average Distance Between Two Vertices in a Graph");
     println!("--------------------------------------------------------");
