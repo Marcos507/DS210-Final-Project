@@ -255,6 +255,7 @@ mod tests {
         assert_eq!(visited_result.len(), 5);
     }
 
+    // Basic Test for Shortest Path Computation
     #[test]
     fn test_shortest_path_small_graph() {
         let edges = vec![(0,1),(1,2),(0,3),(1,4)];
