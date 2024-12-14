@@ -1,28 +1,5 @@
-//--------------------------------------------------------------
-// Project Title: Average Distance Between Two Vertices in a Graph
-//
-// Description:
-// This program reads an undirected graph from a file named "fb-pages-company_edges.txt".
-// Each line in the file is expected to have an edge in the format "u,v".
-// The program constructs the graph, performs a BFS from the first vertex mentioned,
-// randomly selects up to 1000 distinct pairs of reachable vertices, computes shortest
-// path distances for these pairs, and prints the average shortest path distance.
-//
-// Steps:
-// 1. Read edges from file.
-// 2. Construct an undirected graph.
-// 3. Run BFS to find which vertices are reachable from the first vertex.
-// 4. Randomly select up to 1000 distinct pairs of these reachable vertices.
-// 5. Compute shortest path distances using BFS for each pair.
-// 6. Print the average shortest path distance.
-//
-// This code uses:
-// Basic Rust features (structs, vectors, loops, if statements).
-// The `rand` crate for generating random indices.
-// BFS algorithm for graph traversal and shortest path calculations.
-//
-//--------------------------------------------------------------
-
+// DS210 FInal Project
+// By: Marcos Sasson
 // import crates
 use std::io::BufRead;
 use std::fs::File;
