@@ -17,9 +17,9 @@
 // 6. Print the average shortest path distance.
 //
 // This code uses:
-// - Basic Rust features (structs, vectors, loops, if statements).
-// - The `rand` crate for generating random indices.
-// - BFS algorithm for graph traversal and shortest path calculations.
+// Basic Rust features (structs, vectors, loops, if statements).
+// The `rand` crate for generating random indices.
+// BFS algorithm for graph traversal and shortest path calculations.
 //
 //--------------------------------------------------------------
 
